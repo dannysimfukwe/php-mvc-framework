@@ -1,0 +1,7 @@
+## Simple PHP MVC Framework
+### Was bored and wanted to write something..
+
+### Requirements
+docker
+>> run docker-compose up
+>> visit localhost:3000
