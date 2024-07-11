@@ -29,6 +29,9 @@ WORKDIR /var/www
 COPY ./src /var/www
 COPY .env /var/www
 
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+RUN composer install --no-interaction
+
 RUN git config --global url."https://github.com/".insteadOf git@github.com:
 RUN git config --global url."https://".insteadOf git://
 

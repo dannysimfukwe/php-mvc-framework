@@ -9,9 +9,9 @@ class Model {
 
     public function __construct() {
         if($_ENV['DB_CONNECTION'] == 'pdo') {
-            $this->connection = PDO_DB::connect();
+            $this->connection = getConnection::ConnectUsing('pdo');
         }else if($_ENV['DB_CONNECTION'] == 'mysql') {
-            $this->connection = MYSQL_DB::connect();
+            $this->connection = getConnection::ConnectUsing('mysql');
         }
     }
 

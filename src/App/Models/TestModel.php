@@ -2,7 +2,7 @@
 // This Model Uses the custom Model class
 
 class TestModel extends Model {
-    protected $table = 'test_users';
+    protected $table = 'posts';
     protected $columns = ['first_name', 'last_name', 'email_address'];
 
     public function __construct()

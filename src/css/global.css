@@ -1,0 +1,65 @@
+
+@font-face {
+  font-family: "Suisse Int'l";
+  src: url('../fonts/SuisseIntl-Light.otf') format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+  :root {
+    /* fonts */
+    --font-suisse-intl: "Suisse Int'l";
+  
+    /* font sizes */
+    --font-size-sm: 15px;
+    --font-size-base: 20px;
+    --font-size-lg: 25px;
+    --font-size-xl: 30px;
+    --font-size-2xl: 40px;
+    --font-size-3xl: 50px;
+  
+    /* Colors */
+    --color-black: #000;
+    --color-white: #fff;
+    --color-yellow: #fcff00;
+    --color-gray: #dbd9d8;
+    --color-indigo: #402464;
+  
+    /* Gaps */
+    --gap-2xs: 9px;
+    --gap-xs: 10px;
+    --gap-sm: 12px;
+    --gap-md: 19px;
+    --gap-lg: 30px;
+    --gap-xl: 53px;
+  
+    /* Paddings */
+    --padding-5xs: 8px;
+    --padding-4xs: 10px;
+    --padding-3xs: 12px;
+    --padding-2xs: 20px;
+    --padding-xs: 21px;
+    --padding-sm: 22px;
+    --padding-md: 23px;
+    --padding-lg: 33px;
+    --padding-xl: 39px;
+    --padding-2xl: 95px;
+    --padding-3xl: 96px;
+    --padding-4xl: 250px;
+    --padding-5xl: 293px;
+  
+    /* border radiuses */
+    --br-5xs: 3px;
+    --br-4xs: 10px;
+    --br-3xs: 20px;
+    --br-2xs: 29px;
+    --br-xs: 34px;
+    --br-sm: 38px;
+    --br-md: 46px;
+    --br-lg: 47px;
+    --br-xl: 48px;
+    --br-2xl: 49px;
+    --br-3xl: 55px;
+    --br-4xl: 59px;
+    --br-5xl: 67px;
+  }
+  

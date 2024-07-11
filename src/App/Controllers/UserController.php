@@ -5,9 +5,11 @@ use Respect\Validation\Validator as validate;
 class UserController extends Controller
 {
     public function index($params) {
-        $like_users = User::all();
-        $users = User::where('id', 1)->get();
-        return View::render('users/index', ['users' => $users, 'like_users' => $like_users]);
+        return View::render('users/index');
+    }
+
+    public function projects($params) {
+        return View::render('users/projects');
     }
 
     public function recreateUser() {
@@ -33,11 +35,6 @@ class UserController extends Controller
 
     public function deleteUser($params) {
         return print('Deleting user - '.$params[0] . ' - '.$params[1]);
-    }
-
-
-    public function api() {
-
     }
 
 }

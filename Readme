@@ -5,3 +5,27 @@
 docker
 >> run docker-compose up
 >> visit localhost:3000
+
+### Migrations
+
+#### Create migration
+>> sudo docker exec mvc-app-1 vendor/bin/phinx  create TestMigration
+>> Read more here https://hrportal.readthedocs.io/en/latest/commands.html
+
+#### Development
+
+>> sudo docker exec mvc-app-1 vendor/bin/phinx migrate  -e development
+
+#### Production
+
+>> sudo docker exec mvc-app-1 vendor/bin/phinx migrate  -e production
+
+#### Seeding Data
+
+>> sudo docker exec mvc-app-1 vendor/bin/phinx seed:create
+
+>> sudo docker exec mvc-app-1 vendor/bin/phinx seed:run  -e development
+
+### Credits
+>> phinx - https://phinx.org/
+>> Laravel ORM - https://laravel.com/docs/8.x/eloquent
