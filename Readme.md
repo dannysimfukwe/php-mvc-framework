@@ -4,8 +4,20 @@
 ### PHP version 8+
 
 ### Requirements
+
 - docker
-To start the application, run:
+
+> Create a .env file inside src directory with the following:
+```
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=testdb
+DB_USERNAME=user
+DB_PASSWORD=123456
+ENV=local```
+
+- To start the application, run:
 ```sh run docker-compose up ```
 > visit localhost:3000
 
