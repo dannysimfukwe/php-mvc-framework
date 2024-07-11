@@ -15,7 +15,9 @@ DB_PORT=3306
 DB_DATABASE=testdb
 DB_USERNAME=user
 DB_PASSWORD=123456
-ENV=local```
+ENV=local 
+
+```
 
 - To start the application, run:
 ```sh run docker-compose up ```
