@@ -7,13 +7,13 @@
 - docker
 To start the application, run:
 ```sh run docker-compose up ```
->> visit localhost:3000
+> visit localhost:3000
 
 ### Migrations
 
 ### Create migration
 ```sh sudo docker exec mvc-app-1 vendor/bin/phinx  create TestMigration```
->> Read more here https://hrportal.readthedocs.io/en/latest/commands.html
+> Read more here https://hrportal.readthedocs.io/en/latest/commands.html
 
 ### Development
 
