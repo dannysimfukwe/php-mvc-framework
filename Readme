@@ -1,5 +1,7 @@
 ## Simple PHP MVC Framework
-### Was bored and wanted to write something..
+### Was bored and wanted to write something in PHP because it has been a while since I played with the language..
+
+### PHP version 8+
 
 ### Requirements
 docker
@@ -18,13 +20,13 @@ docker
 
 #### Production
 
->> sudo docker exec mvc-app-1 vendor/bin/phinx migrate  -e production
+>> sudo docker exec php-mvc-framework-app-1 vendor/bin/phinx migrate  -e production
 
 #### Seeding Data
 
->> sudo docker exec mvc-app-1 vendor/bin/phinx seed:create
+>> sudo docker exec php-mvc-framework-app-1 vendor/bin/phinx seed:create
 
->> sudo docker exec mvc-app-1 vendor/bin/phinx seed:run  -e development
+>> sudo docker exec php-mvc-framework-app-1 vendor/bin/phinx seed:run  -e development
 
 ### Credits
 >> phinx - https://phinx.org/

@@ -11,7 +11,7 @@
 			private string $password,
 			public string $database,
 			public int $port = 3306
-		){
+		) {
 			for ($i = 0; $i < $numConnections; $i++){
 				$this->asyncMySQLs[] = new AsyncMySQL($host, $user, $password, $database, $port);
 			}
